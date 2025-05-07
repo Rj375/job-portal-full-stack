@@ -8,8 +8,8 @@ import { toast } from 'react-toastify';
 const AddJob = () => {
 
     const [title, setTitle] = useState('');
-    const [location, setLocation] = useState('Bangalore');
-    const [category, setCategory] = useState('Programming');
+    const [location, setLocation] = useState('Australian Capital Territory');
+    const [category, setCategory] = useState('Doctor');
     const [level, setLevel] = useState('Beginner level');
     const [salary, setSalary] = useState(0);
 
@@ -110,7 +110,7 @@ const AddJob = () => {
                 <input min={0} className='w-full px-3 py-2 border-2 border-gray-300 rounded sm:w-[120px]' onChange={e => setSalary(e.target.value)} type="Number" placeholder='2500' />
             </div>
 
-            <button className='w-28 py-3 mt-4 bg-black text-white rounded'>ADD</button>
+            <button className='w-28 py-3 mt-4 bg-green-600 text-white rounded'>ADD</button>
         </form>
     )
 }

@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo1 from "./logo1.jpg";
 import search_icon from "./search_icon.svg";
 import company_icon from "./company_icon.svg";
 import microsoft_logo from "./microsoft_logo.svg";
@@ -33,9 +34,11 @@ import lock_icon from './lock_icon.svg'
 import samsung_logo from './samsung_logo.png'
 import adobe_logo from './adobe_logo.png'
 import amazon_logo from './amazon_logo.png'
+import canberra_hospital_logo from './canberra_hospital_logo.png'
 
 export const assets = {
     logo,
+    logo1,
     search_icon,
     cross_icon,
     upload_area,
@@ -69,27 +72,29 @@ export const assets = {
     lock_icon,
     samsung_logo,
     adobe_logo,
-    amazon_logo
+    amazon_logo,
+    canberra_hospital_logo
 }
 
 export const JobCategories = [
-    "Programming",
-    "Data Science",
-    "Designing",
-    "Networking",
-    "Management",
-    "Marketing",
-    "Cybersecurity",
+    "Doctor",
+    "Registered Nurse",
+    "Occupational Therapist",
+    "Dentist",
+    "Nursing Assistant",
+    "Personal Carer",
+    "Pathology Collector",
 ]
 
 export const JobLocations = [
-    "Bangalore",
-    "Washington",
-    "Hyderabad",
-    "Mumbai",
-    "California",
-    "Chennai",
-    "New York"
+    "Australian Capital Territory",
+    "New South Wales",
+    "Victoria",
+    "Tasmania",
+    "Northern Territory",
+    "Western Australia",
+    "Queensland",
+    "South Australia"
 ]
 
 // Sample data for Manage Jobs Page

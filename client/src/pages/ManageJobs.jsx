@@ -99,7 +99,7 @@ const ManageJobs = () => {
         </table>
       </div>
       <div className='mt-4 flex justify-end'>
-        <button onClick={() => navigate('/dashboard/add-job')} className='bg-black text-white py-2 px-4 rounded'>Add new job</button>
+        <button onClick={() => navigate('/dashboard/add-job')} className='bg-green-600 text-white py-2 px-4 rounded'>Add new job</button>
       </div>
     </div>
   ) : <Loading />
