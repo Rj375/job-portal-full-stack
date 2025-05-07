@@ -46,11 +46,11 @@ const Hero = () => {
             <div className='border border-green-300 shadow-md mx-2 mt-5 p-6 rounded-md flex justify-center'>
                 <div className='flex justify-center gap-10 lg:gap-16 flex-wrap'>
                     <img className='h-14' src={assets.canberra_hospital_logo} alt="" />
-                    <img className='h-14' src={assets.canberra_hospital_logo} alt="" />
-                    <img className='h-14' src={assets.canberra_hospital_logo} alt="" />
-                    <img className='h-14' src={assets.canberra_hospital_logo} alt="" />
-                    <img className='h-14' src={assets.canberra_hospital_logo} alt="" />
-                    <img className='h-14' src={assets.canberra_hospital_logo} alt="" />
+                    <img className='h-14' src={assets.NSW_logo} alt="" />
+                    <img className='h-14' src={assets.victoria_logo} alt="" />
+                    <img className='h-14' src={assets.tasmania_logo} alt="" />
+                    <img className='h-14' src={assets.Queensland_logo} alt="" />
+                    <img className='h-14' src={assets.SA_logo} alt="" />
                 </div>
             </div>
 

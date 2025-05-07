@@ -35,6 +35,12 @@ import samsung_logo from './samsung_logo.png'
 import adobe_logo from './adobe_logo.png'
 import amazon_logo from './amazon_logo.png'
 import canberra_hospital_logo from './canberra_hospital_logo.png'
+import NSW_logo from './NSW_logo.png'
+import victoria_logo from './victoria_logo.png'
+import SA_logo from './SA_logo.png'
+import tasmania_logo from './tasmania_logo.png'
+import Queensland_logo from './Queensland_logo.png'
+import WA_logo from './WA_logo.jpg'
 
 export const assets = {
     logo,
@@ -73,7 +79,13 @@ export const assets = {
     samsung_logo,
     adobe_logo,
     amazon_logo,
-    canberra_hospital_logo
+    canberra_hospital_logo,
+    NSW_logo,
+    victoria_logo,
+    SA_logo,
+    tasmania_logo,
+    Queensland_logo,
+    WA_logo
 }
 
 export const JobCategories = [
